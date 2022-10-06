@@ -173,3 +173,15 @@
     left: -10%;
     transition: 0.4s;
 }
+
+.ex-13-button:hover .ex-13-top-white{
+    animation-name: circling-top;
+    animation-duration: 0.6s;
+    animation-timing-function: linear;
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation-name: circling-bot;
+    animation-duration: 0.6s;
+    animation-timing-function: linear;
+}
